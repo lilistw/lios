@@ -560,6 +560,8 @@ function Footer() {
             <a href="#founder">about</a>
             <a href="https://blog.lios.dev">blog</a>
             <a href="#contact">contact</a>
+            <a href="/privacy.html">privacy</a>
+            <a href="/terms.html">terms</a>
           </div>
           <div className="small">© 2026 Lios — Salesforce Development & Modern Web Engineering</div>
         </div>
