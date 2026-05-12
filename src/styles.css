@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 /* ============================================================
    Lios — design tokens + base layout
    Quiet & technical: lots of whitespace, restrained purple,
@@ -1094,7 +1096,7 @@ footer .links a {
 footer .links a:hover { color: var(--fg); }
 
 footer .mega {
-  font-family: var(--font-display);
+  font-family: "Comfortaa", var(--font-display);
   font-weight: 600;
   letter-spacing: -0.04em;
   color: var(--surface-2);
