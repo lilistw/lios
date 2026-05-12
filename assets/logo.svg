@@ -1,0 +1,72 @@
+<svg
+  width="512"
+  height="512"
+  viewBox="0 0 512 512"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <!-- Left vertical face: lighter purple at top, darker at bottom -->
+    <linearGradient id="leftGrad" x1="187" y1="42" x2="187" y2="385" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B35E8"/>
+      <stop offset="100%" stop-color="#4E0EA0"/>
+    </linearGradient>
+
+    <!-- Bottom floor face -->
+    <linearGradient id="bottomGrad" x1="118" y1="345" x2="418" y2="425" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8A28D8"/>
+      <stop offset="100%" stop-color="#6C16BE"/>
+    </linearGradient>
+
+    <!-- Right face: bright pink-purple -->
+    <linearGradient id="rightGrad" x1="256" y1="210" x2="426" y2="345" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#B848FF"/>
+      <stop offset="100%" stop-color="#DC94FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- LEFT FACE — tall vertical bar of the L -->
+  <path
+    d="
+      M 118 385
+      L 118 108
+      Q 118 76 146 58
+      L 230 40
+      Q 258 32 258 65
+      L 258 308
+      Z
+    "
+    fill="url(#leftGrad)"
+  />
+
+  <!-- BOTTOM FACE — floor/base of the L stretching right -->
+  <path
+    d="
+      M 118 385
+      L 258 308
+      L 420 408
+      Q 436 418 420 430
+      L 334 476
+      Q 312 490 290 474
+      L 118 385
+      Z
+    "
+    fill="url(#bottomGrad)"
+  />
+
+  <!-- RIGHT FACE — right column face of the L -->
+  <path
+    d="
+      M 258 308
+      L 392 222
+      Q 426 204 426 242
+      L 426 316
+      Q 426 338 408 348
+      L 350 382
+      Q 328 396 306 380
+      L 258 308
+      Z
+    "
+    fill="url(#rightGrad)"
+  />
+</svg>
